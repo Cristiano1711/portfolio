@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cristiano Cardoso — Dev · Automação · Dados · IA</title>
+<meta name="description" content="Portfólio de Cristiano Cardoso — estudante de Engenharia de Software na UFAM, focado em automação, dados e IA.">
+<link rel="icon" href="https://github.com/Cristiano1711.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="#top" class="logo"><span class="dot"></span>cristiano.dev</a>
+    <nav class="links">
+      <a href="#about">sobre</a>
+      <a href="#projects">projetos</a>
+      <a href="#contact">contato</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="profile-badge">
+          <img src="https://github.com/Cristiano1711.png?size=200" alt="Foto de perfil de Cristiano Cardoso" loading="lazy">
+          <span class="who"><span class="name">Cristiano Cardoso</span><span class="role">Engenharia de Software · UFAM</span></span>
+        </div>
+        <p class="eyebrow">status: em aprendizado ativo</p>
+        <h1>Construindo com<br>dados, automação<br>e <span class="accent">IA</span>.</h1>
+        <p class="lede">Sou estudante de tecnologia, focado em automações, engenharia de dados e inteligência artificial. Esse espaço reúne o que venho construindo enquanto aprendo.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#projects">Ver projetos</a>
+          <a class="btn btn-ghost" href="https://github.com/Cristiano1711" target="_blank" rel="noopener">GitHub ↗</a>
+        </div>
+      </div>
+
+      <div class="panel" aria-label="Painel de status do aprendizado">
+        <div class="panel-head">
+          <span class="panel-title">learning_pipeline.log</span>
+          <div class="dots"><span></span><span></span><span></span></div>
+        </div>
+        <div class="panel-body">
+          <div class="log-line"><span class="log-tag log-ok">[OK]</span><span class="msg">fundamentos de lógica e programação</span></div>
+          <div class="log-line"><span class="log-tag log-ok">[OK]</span><span class="msg">Python + estruturas de dados</span></div>
+          <div class="log-line"><span class="log-tag log-run">[RUN]</span><span class="msg">automação de processos & scripts</span></div>
+          <div class="log-line"><span class="log-tag log-run">[RUN]</span><span class="msg">fundamentos de dados & IA</span><span class="cursor"></span></div>
+          <div class="log-line"><span class="log-tag" style="color:var(--text-dim)">[NEXT]</span><span class="msg">projetos aplicados em produção</span></div>
+          <div class="progress-track"><div class="progress-fill"></div></div>
+          <div class="progress-label"><span>faculdade em andamento</span><span>75%</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap">
+      <div class="section-head"><span class="section-num">// sobre</span><h2>Quem constrói isso aqui</h2></div>
+      <div class="about-grid">
+        <div>
+          <p>Sou estudante de Engenharia de Software na UFAM, e este portfólio é, antes de tudo, um registro de aprendizado — cada projeto aqui é uma etapa real do processo, não um produto acabado e polido.</p>
+          <p>Já naveguei por camadas bem diferentes: sockets TCP e concorrência com threads em C, backend clássico com Flask e MySQL, full-stack moderno com React e Node, e mais recentemente RAG e o protocolo MCP aplicados a um agente acadêmico. No meio do caminho também aprendi a lidar com o imprevisto — como quando a API de dados de um dos meus projetos saiu do ar e precisei migrar todo o backend pra outro provedor sem quebrar o que já estava em produção.</p>
+          <p>Meu interesse principal está em automação de tarefas, pipelines de dados e IA aplicada — conectar ferramentas, tratar dados e transformar processos manuais em algo automático.</p>
+        </div>
+        <ul class="stack-list">
+          <li>Python</li>
+          <li>C</li>
+          <li>SQL & MySQL</li>
+          <li>React & Node.js</li>
+          <li>Flask</li>
+          <li>Sockets & Threads</li>
+          <li>APIs & Webhooks</li>
+          <li>RAG & LLMs</li>
+          <li>Protocolo MCP</li>
+          <li>Git & GitHub</li>
+          <li>Linux / linha de comando</li>
+          <li>Automação de processos</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="wrap">
+      <div class="section-head"><span class="section-num">// projetos</span><h2>O que venho construindo</h2></div>
+      <div class="project-grid">
+
+        <a class="project-card" href="https://github.com/Cristiano1711/dashboard-games" target="_blank" rel="noopener">
+          <span class="project-status">Concluído</span>
+          <h3>Dashboard de Games</h3>
+          <p>Dashboard full-stack com dados reais de jogos: busca, filtros, gráficos e favoritos. Backend próprio em Node/Express atua como proxy da IGDB API — inclusive sobreviveu a uma migração de fornecedor de dados (RAWG → IGDB) sem quebrar o front. Deploy em produção (Vercel + Render).</p>
+          <div class="tag-row"><span class="tag">React</span><span class="tag">Node/Express</span><span class="tag">IGDB API</span></div>
+        </a>
+
+        <a class="project-card" href="https://github.com/Cristiano1711/Batalha-Naval-Threads-TCP" target="_blank" rel="noopener">
+          <span class="project-status">Concluído</span>
+          <h3>Batalha Naval — Multiplayer via TCP</h3>
+          <p>Jogo de Batalha Naval multijogador em tempo real, em C puro. Arquitetura cliente-servidor sobre sockets TCP, concorrência com POSIX threads (uma thread por cliente, mutex granular) e protocolo de aplicação textual próprio.</p>
+          <div class="tag-row"><span class="tag">C</span><span class="tag">Sockets TCP</span><span class="tag">Pthreads</span></div>
+        </a>
+
+        <a class="project-card" href="https://github.com/Cristiano1711/Sistema-de-Gestao-de-Incidentes-e-Requisicoes-SGIR-" target="_blank" rel="noopener">
+          <span class="project-status">Concluído</span>
+          <h3>SGIR — Gestão de Incidentes</h3>
+          <p>Sistema de gerenciamento de tickets de suporte técnico, com controle completo do ciclo de vida de um chamado — abertura, atribuição a técnico, transições de estado e histórico de comentários persistido em JSON nativo no MySQL.</p>
+          <div class="tag-row"><span class="tag">Python</span><span class="tag">Flask</span><span class="tag">MySQL</span></div>
+        </a>
+
+        <a class="project-card" href="https://github.com/Cristiano1711/trabalho-pratico-llms" target="_blank" rel="noopener">
+          <span class="project-status">Concluído</span>
+          <h3>Agente Acadêmico de Conteúdo (RAG + MCP)</h3>
+          <p>Pipeline de coleta, avaliação e indexação de material acadêmico de Cálculo II, servido a agentes tutores via protocolo MCP. Corpus vetorizado com embeddings multilíngues e busca semântica, com hash de integridade para reprodutibilidade.</p>
+          <div class="tag-row"><span class="tag">Python</span><span class="tag">RAG</span><span class="tag">MCP</span></div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <div class="section-head"><span class="section-num">// contato</span><h2>Vamos conversar</h2></div>
+      <div class="contact-panel">
+        <p class="eyebrow" style="justify-content:center;">disponível para estágio & projetos</p>
+        <p>Se você quer trocar uma ideia sobre dados, automação ou IA — ou tem uma oportunidade de estágio — me chama.</p>
+        <div class="contact-links">
+          <a class="btn btn-ghost" href="https://github.com/Cristiano1711" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn btn-ghost" href="mailto:criscardosocavalcante@gmail.com">E-mail</a>
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/cristiano-cardoso1711/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">© <span id="year"></span> Cristiano Cardoso — construído com HTML e CSS.</div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
